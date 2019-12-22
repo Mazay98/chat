@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-    let socket = new WebSocket("ws://chat:8090/server.php");
+    let socket = new WebSocket("ws://localhost:889/chat/server.php");
     let blockMessage = "chat__result";
 
     socket.onerror = function(error) {

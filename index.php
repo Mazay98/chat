@@ -16,7 +16,6 @@
     <div class="container">
         <form class="chat" action="">
             <div class="chat__result" id="chat__result">
-
             </div>
         </form>
     </div>
